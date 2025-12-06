@@ -1,0 +1,144 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body{
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: #303030;
+}
+
+.text_color{
+  color: #f6e7d8;
+}
+
+.seperator{
+  width: 100%;
+  height: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color:#f6e7d8;
+}
+
+img{
+  height: 60%;
+  width: 100%;
+  /* border-radius: 10px; */
+}
+.item{
+  width: 400px;
+  height: 320px;
+  border: #f6e7d8 4px solid;
+  margin-bottom: 10px;
+  /* padding: 5px; */
+  border-radius: 15px;
+}
+
+
+.text_styles{
+  /* border: red 3px solid; */
+  height: 100%;
+  width: fit-content;
+  padding-left: 15px;
+}
+
+
+/* #################################################################################################################### */
+
+/* FRONT END */
+.tittle_frontEnd{
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  /* border: white 3px solid; */
+}
+
+.FrontEnd_container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* END */
+
+/* ################################################################################################################################ */
+
+/* BACK END */
+.tittle_backend{
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  /* border: white 3px solid; */
+}
+
+.BackEnd_container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+
+/* END */
+/* ################################################################################################################# */
+
+/* Courses */
+/* Adham */
+
+.top {
+  text-align: center;
+  font-size: xx-large;
+  color: #f6e7d8;
+}
+.imgs {
+  width: 512px;
+  height: 512px;
+}
+.courses {
+  display: flex;
+  justify-content: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.my-courses {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  color: #303030;
+}
+
+button {
+  padding: 15px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  color: #303030;
+  background-color: #f6e7d8;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  margin: -40px;
+  margin-left: 70px;
+  justify-content: center;
+
+}
+
+button:hover {
+  background-color: #a35018;
+  color: #f6e7d8;
+}
+
+/* Adham */

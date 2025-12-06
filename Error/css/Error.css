@@ -1,0 +1,29 @@
+body{
+    background-color: #303030;
+    font-family: sans-serif;
+    text-decoration: solid;
+}
+
+#aa {
+    color: #f6e7d8;
+    padding: 50px 250px;
+    width: 450px;   
+}
+ 
+#cc {
+color: rgb(78, 78, 248);
+font-size: 27px;
+position: relative;
+bottom: 302px;
+}
+
+#bb {
+    padding: 0px;
+}
+
+img{ 
+    width: 294px;
+    position: relative;
+    bottom: 312px;
+    left: 293px;
+}

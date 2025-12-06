@@ -1,0 +1,56 @@
+ label {
+     color: #f6e7d8;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ html {
+     background-color: #303030;
+ }
+
+ input {
+     color: #303030;
+     line-height: normal;
+ }
+
+ a {
+     color: aliceblue;
+     text-decoration: none;
+     width: max-content;
+
+ }
+
+ form {
+     font-size: larger;
+     padding-top: 80px;
+     /* background-image: url(//WhatsApp\ Image\ 2024-12-04\ at\ 12.55.26\ PM.jpeg); */
+     text-align: center;
+     /* background-color: #303030 */
+ }
+
+ h1 {
+     color: aliceblue;
+ }
+
+ .name1 {
+     display: block;
+     width: 1000;
+ }
+
+ image {
+     width: 100px;
+ }
+
+ .submit:hover {
+    background-color: #a35018;
+    color: #f6e7d8;
+  }
+
+  .re:hover {
+    background-color: #a35018;
+    color: #f6e7d8;
+  }
+
+  .have:hover {
+    background-color: #a35018;
+    color: #f6e7d8;
+  }

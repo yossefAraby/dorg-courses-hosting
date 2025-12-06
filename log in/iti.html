@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: 'Arimo', sans-serif;
+            background-color: #303030;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .container {
+            width: 400px;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #303030;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #f6e7d8;
+        }
+
+        .container img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #f6e7d8;
+            background-color: #303030;
+            color: #f6e7d8;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .container .remember {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: #f6e7d8;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #c46722;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 14px;
+        }
+
+        .container button:hover {
+            background-color: #a5531c;
+            color: #fff;
+        }
+
+        .container .register {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .container .register a {
+            color: #f6e7d8;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <img src="7.png" alt="User Icon">
+        <h1>Member Login</h1>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <div class="remember">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="register">
+            Don't have an account?<a href="../sign up/SignUP.html">Sign up</a>
+        </div>
+    </div>
+</body>
+
+</html>

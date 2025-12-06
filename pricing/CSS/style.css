@@ -1,0 +1,119 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    label {
+        width: 40%;
+    }
+}
+
+/* body CSS */
+body {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    background-color: #303030;
+    color: #f6e7d8;
+    padding: 20px;
+    display: flex;
+    justify-content:  space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Features */
+ul {
+    background-color: #404040;
+    border: 2px solid #f6e7d8;
+    li {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+/* Discount */
+
+div.discount {
+    input[type="text"] {
+        padding: 10px;
+        border: 2px solid #f6e7d8;
+        border-radius: 5px;
+        background-color: #303030;
+        color: #f6e7d8;
+        margin-right: 10px;
+        max-width: 190px;
+    }
+    
+    button {
+        padding: 10px 15px;
+        border: none;
+        background-color: #f6e7d8;
+        color: #303030;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    button:hover {
+        background-color: #a35018;
+        color: #f6e7d8;
+    }
+
+    margin-bottom: 30px;
+}
+
+/* line */
+hr {
+    border-width: 1px 150px;
+    border-style: solid;
+    border-color: #f6e7d8;
+}
+
+/* Subscription */
+label {
+    display: inline-block;
+    background-color: #404040;
+    border: 2px solid #f6e7d8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    width: 250px;
+    height: 115px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.monthly {
+    font-size: 135%;
+    margin-inline-end: 200px;
+}
+
+label:hover {
+    background-color: #c46722;
+    color: #f6e7d8;
+    transform: scale(1.05);
+    .monthly {
+        small {
+            color:#c46722
+        }
+    }
+}
+
+input[type="radio"] {
+    display: none;
+}
